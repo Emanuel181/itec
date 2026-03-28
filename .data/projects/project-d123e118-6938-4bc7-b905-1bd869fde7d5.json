@@ -1,0 +1,168 @@
+{
+  "id": "project-d123e118-6938-4bc7-b905-1bd869fde7d5",
+  "createdAt": "2026-03-28T20:39:46.803Z",
+  "updatedAt": "2026-03-28T20:40:04.920Z",
+  "currentStage": "Conversation",
+  "search": "",
+  "brief": {
+    "title": "",
+    "objective": "",
+    "audience": [],
+    "scope": [],
+    "deliverables": [],
+    "risks": [],
+    "techStack": [
+      "Next.js",
+      "OpenAI"
+    ],
+    "dbSchema": "",
+    "architecture": "",
+    "architectureDiagram": ""
+  },
+  "requirements": [],
+  "features": [],
+  "selectedFeatureId": "",
+  "userStories": [],
+  "selectedStoryId": "",
+  "messages": {
+    "business": [],
+    "tech": []
+  },
+  "collaborators": [],
+  "agents": [
+    {
+      "id": "agent-business",
+      "name": "Business AI",
+      "specialty": "Brief synthesis",
+      "stage": "Conversation",
+      "status": "standby",
+      "goal": "Clarify business scope and generate approval-ready artifacts.",
+      "lastRunSummary": "Waiting for the initial brief."
+    },
+    {
+      "id": "agent-tech",
+      "name": "Tech AI",
+      "specialty": "Architecture planning",
+      "stage": "Documentation",
+      "status": "standby",
+      "goal": "Translate approved requirements into implementation paths.",
+      "lastRunSummary": "Waiting for technical details."
+    },
+    {
+      "id": "agent-orchestrator",
+      "name": "Orchestrator Agent",
+      "specialty": "Flow coordination",
+      "stage": "Requirements",
+      "status": "queued",
+      "goal": "Coordinate generation between stages and preserve artifacts.",
+      "lastRunSummary": "Ready for the first handoff."
+    },
+    {
+      "id": "agent-merge",
+      "name": "Merge Agent",
+      "specialty": "Integration planning",
+      "stage": "Merge",
+      "status": "queued",
+      "goal": "Prepare merge candidate and preview handoff.",
+      "lastRunSummary": "No generated workspace yet."
+    },
+    {
+      "id": "agent-security",
+      "name": "Security Agent",
+      "specialty": "OWASP and risk review",
+      "stage": "Security Review",
+      "status": "queued",
+      "goal": "Identify security risks before merge and recommend fixes.",
+      "lastRunSummary": "Waiting for the final code to review."
+    },
+    {
+      "id": "agent-review",
+      "name": "Project Review Agent",
+      "specialty": "Health reporting",
+      "stage": "Project Review",
+      "status": "queued",
+      "goal": "Summarize progress, debt, and next actions after merge.",
+      "lastRunSummary": "Waiting for the first completed merge."
+    }
+  ],
+  "agentRuns": [],
+  "artifacts": [],
+  "activity": [
+    {
+      "id": "activity-1774730404920-dqr4ye",
+      "title": "Stage blocked",
+      "detail": "Complete the title and objective of the brief before the Requirements stage.",
+      "time": "Now"
+    },
+    {
+      "id": "activity-ready",
+      "title": "Project ready",
+      "detail": "The project starts empty. Complete the brief and generate artifacts from the following stages.",
+      "time": "Acum"
+    }
+  ],
+  "workspace": {
+    "folders": [
+      {
+        "id": "folder-docs",
+        "name": "docs",
+        "path": "docs"
+      },
+      {
+        "id": "folder-specs",
+        "name": "specs",
+        "path": "specs"
+      },
+      {
+        "id": "folder-src",
+        "name": "src",
+        "path": "src"
+      },
+      {
+        "id": "folder-src-app",
+        "name": "app",
+        "path": "src/app"
+      },
+      {
+        "id": "folder-src-components",
+        "name": "components",
+        "path": "src/components"
+      },
+      {
+        "id": "folder-src-lib",
+        "name": "lib",
+        "path": "src/lib"
+      }
+    ],
+    "files": [],
+    "selectedFileId": "",
+    "runtimeEntrypoints": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx"
+    ]
+  },
+  "securityReport": {
+    "status": "idle",
+    "summary": "Security review has not started yet.",
+    "issues": []
+  },
+  "mergeReport": {
+    "status": "idle",
+    "summary": "Merge & integration has not started yet.",
+    "mergedStoryIds": [],
+    "changelog": []
+  },
+  "projectHealth": {
+    "status": "idle",
+    "summary": "Project review has not been generated yet.",
+    "progress": 0,
+    "coverage": "No merged stories yet.",
+    "technicalDebt": [],
+    "nextActions": []
+  },
+  "preview": {
+    "appGenerated": false,
+    "previewOpened": false,
+    "mode": "virtual-runtime"
+  }
+}

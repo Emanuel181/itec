@@ -1,0 +1,1645 @@
+{
+  "id": "project-517d89d0-55de-45e9-acbc-e6a640e518ac",
+  "createdAt": "2026-03-28T17:00:37.426Z",
+  "updatedAt": "2026-03-28T17:51:07.850Z",
+  "currentStage": "Preview",
+  "search": "",
+  "brief": {
+    "title": "Ciau Vreau Aplcatie Erol",
+    "objective": "ciau vreau aplcatie erol",
+    "audience": [
+      "erol"
+    ],
+    "scope": [
+      "ciau vreau aplcatie erol"
+    ],
+    "deliverables": [
+      "Production website ready for launch",
+      "Structured requirements and implementation plan",
+      "Traceable feature and story backlog"
+    ],
+    "risks": [],
+    "techStack": [
+      "Next.js",
+      "OpenAI"
+    ],
+    "dbSchema": "",
+    "architecture": "Next.js application prepared for production deployment, persistence, and AI-assisted workflows."
+  },
+  "requirements": [
+    {
+      "id": "REQ-F-01",
+      "title": "ciau vreau aplcatie erol",
+      "detail": "Derived from the approved product scope.",
+      "kind": "functional",
+      "status": "approved",
+      "featureIds": [],
+      "storyIds": []
+    },
+    {
+      "id": "REQ-D-01",
+      "title": "Production website ready for launch",
+      "detail": "Must produce a reviewable implementation artifact.",
+      "kind": "functional",
+      "status": "derived",
+      "featureIds": [],
+      "storyIds": []
+    },
+    {
+      "id": "REQ-D-02",
+      "title": "Structured requirements and implementation plan",
+      "detail": "Must produce a reviewable implementation artifact.",
+      "kind": "functional",
+      "status": "derived",
+      "featureIds": [],
+      "storyIds": []
+    },
+    {
+      "id": "REQ-D-03",
+      "title": "Traceable feature and story backlog",
+      "detail": "Must produce a reviewable implementation artifact.",
+      "kind": "functional",
+      "status": "derived",
+      "featureIds": [],
+      "storyIds": []
+    }
+  ],
+  "features": [
+    {
+      "id": "FEAT-01",
+      "title": "Ciau Vreau Aplcatie Erol",
+      "summary": "Capability derived from the brief for Ciau Vreau Aplcatie Erol: ciau vreau aplcatie erol",
+      "preview": "Primary flow",
+      "estimate": "M",
+      "complexityNote": "Balanced implementation effort with moderate orchestration work.",
+      "dependencyIds": [],
+      "variations": [
+        "Deliver through Next.js.",
+        "Keep the approval flow aligned with ciau vreau aplcatie erol.",
+        "Expose the outcome directly in the IDE shell."
+      ],
+      "acceptance": [
+        "Artifact is generated from the approved brief.",
+        "Human can review and edit the generated result."
+      ]
+    },
+    {
+      "id": "FEAT-02",
+      "title": "Production Website Ready For Launch",
+      "summary": "Capability derived from the brief for Ciau Vreau Aplcatie Erol: Production website ready for launch",
+      "preview": "Supporting workflow",
+      "estimate": "L",
+      "complexityNote": "Requires multiple handoffs and stronger approval logic.",
+      "dependencyIds": [
+        "FEAT-01"
+      ],
+      "variations": [
+        "Deliver through Next.js.",
+        "Keep the approval flow aligned with ciau vreau aplcatie erol.",
+        "Expose the outcome directly in the IDE shell."
+      ],
+      "acceptance": [
+        "Artifact is generated from the approved brief.",
+        "Human can review and edit the generated result."
+      ]
+    },
+    {
+      "id": "FEAT-03",
+      "title": "Structured Requirements And Implementation Plan",
+      "summary": "Capability derived from the brief for Ciau Vreau Aplcatie Erol: Structured requirements and implementation plan",
+      "preview": "Operational view",
+      "estimate": "S",
+      "complexityNote": "Smaller supporting capability with low integration cost.",
+      "dependencyIds": [
+        "FEAT-02"
+      ],
+      "variations": [
+        "Deliver through Next.js.",
+        "Keep the approval flow aligned with ciau vreau aplcatie erol.",
+        "Expose the outcome directly in the IDE shell."
+      ],
+      "acceptance": [
+        "Artifact is generated from the approved brief.",
+        "Human can review and edit the generated result."
+      ]
+    }
+  ],
+  "selectedFeatureId": "FEAT-01",
+  "userStories": [
+    {
+      "id": "US-01",
+      "title": "Story 1: Ciau Vreau Aplcatie Erol",
+      "stack": "Next.js + OpenAI",
+      "summary": "As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.",
+      "tradeoff": "Fastest path to delivery, with moderate structural flexibility.",
+      "estimate": "M",
+      "complexityNote": "Needs one coordinated UI and backend pass.",
+      "dependencyIds": [],
+      "previewTitle": "Ciau Vreau Aplcatie Erol Runtime",
+      "previewDescription": "Preview the ciau vreau aplcatie erol flow directly from generated workspace files.",
+      "code": "export const CiauVreauAplcatieErolStory1 = {\n  feature: \"Ciau Vreau Aplcatie Erol\",\n  audience: \"erol\",\n  goal: \"As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\",\n}\n",
+      "variants": [
+        {
+          "id": "US-01-VAR-01",
+          "label": "Variant 1",
+          "teamName": "Frontend + Backend + TL Alpha",
+          "focus": "Optimize for rapid delivery with a single cohesive surface.",
+          "architecture": "Direct App Router implementation with compact orchestration support.",
+          "pros": [
+            "Fastest to ship",
+            "Lowest integration overhead",
+            "Simple review path"
+          ],
+          "cons": [
+            "Tighter coupling across concerns",
+            "Less flexibility for later scale"
+          ],
+          "tradeoff": "Favors speed and simplicity.",
+          "code": "export const CiauVreauAplcatieErolStory1 = {\n  feature: \"Ciau Vreau Aplcatie Erol\",\n  audience: \"erol\",\n  goal: \"As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\",\n}\n"
+        },
+        {
+          "id": "US-01-VAR-02",
+          "label": "Variant 2",
+          "teamName": "Frontend + Backend + TL Beta",
+          "focus": "Balance delivery speed with maintainable boundaries.",
+          "architecture": "Layered flow with explicit orchestration and clearer separation of runtime data.",
+          "pros": [
+            "Balanced maintenance cost",
+            "Cleaner orchestration boundaries",
+            "Good default choice"
+          ],
+          "cons": [
+            "More coordination than Variant 1",
+            "Slightly more code upfront"
+          ],
+          "tradeoff": "Balanced path between speed and structure.",
+          "code": "export const CiauVreauAplcatieErolStory1 = {\n  feature: \"Ciau Vreau Aplcatie Erol\",\n  audience: \"erol\",\n  goal: \"As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\",\n}\n\nexport const implementationMode = \"balanced\"\n"
+        },
+        {
+          "id": "US-01-VAR-03",
+          "label": "Variant 3",
+          "teamName": "Frontend + Backend + TL Gamma",
+          "focus": "Maximize modularity and future extensibility.",
+          "architecture": "Componentized implementation with stronger data and workflow separation.",
+          "pros": [
+            "Strongest extensibility",
+            "Easier long-term growth",
+            "Better isolation"
+          ],
+          "cons": [
+            "Highest initial complexity",
+            "More review surface"
+          ],
+          "tradeoff": "Favors extensibility over immediate speed.",
+          "code": "export const CiauVreauAplcatieErolStory1 = {\n  feature: \"Ciau Vreau Aplcatie Erol\",\n  audience: \"erol\",\n  goal: \"As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\",\n}\n\nexport const implementationMode = \"modular\"\n"
+        }
+      ],
+      "selectedVariantId": "US-01-VAR-02"
+    }
+  ],
+  "selectedStoryId": "US-01",
+  "messages": {
+    "business": [
+      {
+        "id": "msg-1774717323909-k7mose",
+        "author": "Alex",
+        "role": "human",
+        "text": "ciau vreau aplcatie erol"
+      },
+      {
+        "id": "msg-1774717324070-5fdmpl",
+        "author": "General AI",
+        "role": "ai",
+        "text": "Am notat direcția: \"ciau vreau aplcatie erol\". O folosesc pentru documentația website-ului. Spune-mi simplu: Cine sunt utilizatorii principali și ce rol au?"
+      },
+      {
+        "id": "msg-1774717331403-ahqx21",
+        "author": "Alex",
+        "role": "human",
+        "text": "erol"
+      },
+      {
+        "id": "msg-1774717331451-cm3a8p",
+        "author": "General AI",
+        "role": "ai",
+        "text": "Am destul context ca să construiesc documentația completă pentru website. Avem deja obiectivul, audiența, scope-ul și recomandările tehnice de bază. Dacă ești ok, mergem mai departe și generez brief-ul complet din conversația noastră."
+      },
+      {
+        "id": "msg-1774717341073-zh2ejk",
+        "author": "Alex",
+        "role": "human",
+        "text": "da"
+      },
+      {
+        "id": "msg-1774717341147-rj0k2d",
+        "author": "General AI",
+        "role": "ai",
+        "text": "Am destul context ca să construiesc documentația completă pentru website. Avem deja obiectivul, audiența, scope-ul și recomandările tehnice de bază. Dacă ești ok, mergem mai departe și generez brief-ul complet din conversația noastră."
+      }
+    ],
+    "tech": []
+  },
+  "collaborators": [],
+  "agents": [
+    {
+      "id": "agent-business",
+      "name": "Business AI",
+      "specialty": "Brief synthesis",
+      "stage": "Conversation",
+      "status": "standby",
+      "goal": "Clarify business scope and generate approval-ready artifacts.",
+      "lastRunSummary": "Am generat 3 feature-uri pornind din brief."
+    },
+    {
+      "id": "agent-tech",
+      "name": "Tech AI",
+      "specialty": "Architecture planning",
+      "stage": "Documentation",
+      "status": "standby",
+      "goal": "Translate approved requirements into implementation paths.",
+      "lastRunSummary": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2."
+    },
+    {
+      "id": "agent-orchestrator",
+      "name": "Orchestrator Agent",
+      "specialty": "Flow coordination",
+      "stage": "Requirements",
+      "status": "standby",
+      "goal": "Coordinate generation between stages and preserve artifacts.",
+      "lastRunSummary": "Feature-ul FEAT-01 are acum 1 user stories."
+    },
+    {
+      "id": "agent-merge",
+      "name": "Merge Agent",
+      "specialty": "Integration planning",
+      "stage": "Merge",
+      "status": "standby",
+      "goal": "Prepare merge candidate and preview handoff.",
+      "lastRunSummary": "Preview-ul aplicației este gata de vizualizare."
+    },
+    {
+      "id": "agent-security",
+      "name": "Security Agent",
+      "specialty": "OWASP and risk review",
+      "stage": "Security Review",
+      "status": "standby",
+      "goal": "Identify security risks before merge and recommend fixes.",
+      "lastRunSummary": "Security report approved for merge handoff."
+    },
+    {
+      "id": "agent-review",
+      "name": "Project Review Agent",
+      "specialty": "Health reporting",
+      "stage": "Project Review",
+      "status": "standby",
+      "goal": "Summarize progress, debt, and next actions after merge.",
+      "lastRunSummary": "Project health synthesized from 1 stories, 8 workspace files, and 26 agent runs."
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "run-1774720267850-2er4wu",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Preview",
+      "action": "generate-preview",
+      "status": "completed",
+      "summary": "Preview-ul aplicației este gata de vizualizare.",
+      "artifactIds": [
+        "artifact-1774720267850-pfbggn"
+      ],
+      "startedAt": "2026-03-28T17:51:07.850Z",
+      "finishedAt": "2026-03-28T17:51:07.850Z"
+    },
+    {
+      "id": "run-1774720267721-13ybhv",
+      "agentId": "agent-review",
+      "agentName": "Project Review Agent",
+      "stage": "Project Review",
+      "action": "generate-project-review",
+      "status": "completed",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 26 agent runs.",
+      "artifactIds": [
+        "artifact-1774720267721-0ytvb2"
+      ],
+      "startedAt": "2026-03-28T17:51:07.721Z",
+      "finishedAt": "2026-03-28T17:51:07.721Z"
+    },
+    {
+      "id": "run-1774720267699-j3s9da",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Merge",
+      "action": "run-merge",
+      "status": "completed",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "artifactIds": [
+        "artifact-1774720267699-scj5k5"
+      ],
+      "startedAt": "2026-03-28T17:51:07.699Z",
+      "finishedAt": "2026-03-28T17:51:07.699Z"
+    },
+    {
+      "id": "run-1774720267657-jwbxjk",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "approve-security-review",
+      "status": "completed",
+      "summary": "Security report approved for merge handoff.",
+      "artifactIds": [],
+      "startedAt": "2026-03-28T17:51:07.657Z",
+      "finishedAt": "2026-03-28T17:51:07.657Z"
+    },
+    {
+      "id": "run-1774720267611-sguu9e",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "generate-security-review",
+      "status": "completed",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "artifactIds": [
+        "artifact-1774720267611-ywk5nl"
+      ],
+      "startedAt": "2026-03-28T17:51:07.611Z",
+      "finishedAt": "2026-03-28T17:51:07.611Z"
+    },
+    {
+      "id": "run-1774720267514-gp30j8",
+      "agentId": "agent-tech",
+      "agentName": "Tech AI",
+      "stage": "Final Code",
+      "action": "regenerate-workspace",
+      "status": "completed",
+      "summary": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "artifactIds": [
+        "artifact-1774720267514-zzy8zn"
+      ],
+      "startedAt": "2026-03-28T17:51:07.514Z",
+      "finishedAt": "2026-03-28T17:51:07.514Z"
+    },
+    {
+      "id": "run-1774720267389-1duk42",
+      "agentId": "agent-orchestrator",
+      "agentName": "Orchestrator Agent",
+      "stage": "User Stories",
+      "action": "generate-user-stories",
+      "status": "completed",
+      "summary": "Feature-ul FEAT-01 are acum 1 user stories.",
+      "artifactIds": [
+        "artifact-1774720267389-3feekg"
+      ],
+      "startedAt": "2026-03-28T17:51:07.389Z",
+      "finishedAt": "2026-03-28T17:51:07.389Z"
+    },
+    {
+      "id": "run-1774720267304-6ic1x0",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Features",
+      "action": "generate-features",
+      "status": "completed",
+      "summary": "Am generat 3 feature-uri pornind din brief.",
+      "artifactIds": [
+        "artifact-1774720267304-f7pwky"
+      ],
+      "startedAt": "2026-03-28T17:51:07.304Z",
+      "finishedAt": "2026-03-28T17:51:07.304Z"
+    },
+    {
+      "id": "run-1774720267242-ddxqot",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Requirements",
+      "action": "generate-requirements",
+      "status": "completed",
+      "summary": "Am derivat 4 requirements din brief.",
+      "artifactIds": [
+        "artifact-1774720267242-w8rseh"
+      ],
+      "startedAt": "2026-03-28T17:51:07.242Z",
+      "finishedAt": "2026-03-28T17:51:07.242Z"
+    },
+    {
+      "id": "run-1774720266705-777ik8",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Preview",
+      "action": "generate-preview",
+      "status": "completed",
+      "summary": "Preview-ul aplicației este gata de vizualizare.",
+      "artifactIds": [
+        "artifact-1774720266705-ah34cd"
+      ],
+      "startedAt": "2026-03-28T17:51:06.705Z",
+      "finishedAt": "2026-03-28T17:51:06.705Z"
+    },
+    {
+      "id": "run-1774720266553-tic4lj",
+      "agentId": "agent-review",
+      "agentName": "Project Review Agent",
+      "stage": "Project Review",
+      "action": "generate-project-review",
+      "status": "completed",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 17 agent runs.",
+      "artifactIds": [
+        "artifact-1774720266553-5uzk0o"
+      ],
+      "startedAt": "2026-03-28T17:51:06.553Z",
+      "finishedAt": "2026-03-28T17:51:06.553Z"
+    },
+    {
+      "id": "run-1774720266506-05aazo",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Merge",
+      "action": "run-merge",
+      "status": "completed",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "artifactIds": [
+        "artifact-1774720266506-avclcd"
+      ],
+      "startedAt": "2026-03-28T17:51:06.506Z",
+      "finishedAt": "2026-03-28T17:51:06.506Z"
+    },
+    {
+      "id": "run-1774720266465-64rmzi",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "approve-security-review",
+      "status": "completed",
+      "summary": "Security report approved for merge handoff.",
+      "artifactIds": [],
+      "startedAt": "2026-03-28T17:51:06.465Z",
+      "finishedAt": "2026-03-28T17:51:06.465Z"
+    },
+    {
+      "id": "run-1774720266430-l8ly15",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "generate-security-review",
+      "status": "completed",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "artifactIds": [
+        "artifact-1774720266430-56srk6"
+      ],
+      "startedAt": "2026-03-28T17:51:06.430Z",
+      "finishedAt": "2026-03-28T17:51:06.430Z"
+    },
+    {
+      "id": "run-1774720266346-hh6xzr",
+      "agentId": "agent-tech",
+      "agentName": "Tech AI",
+      "stage": "Final Code",
+      "action": "regenerate-workspace",
+      "status": "completed",
+      "summary": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "artifactIds": [
+        "artifact-1774720266346-4h6gzc"
+      ],
+      "startedAt": "2026-03-28T17:51:06.346Z",
+      "finishedAt": "2026-03-28T17:51:06.346Z"
+    },
+    {
+      "id": "run-1774720266157-z25c9h",
+      "agentId": "agent-orchestrator",
+      "agentName": "Orchestrator Agent",
+      "stage": "User Stories",
+      "action": "generate-user-stories",
+      "status": "completed",
+      "summary": "Feature-ul FEAT-01 are acum 1 user stories.",
+      "artifactIds": [
+        "artifact-1774720266157-nkdyxn"
+      ],
+      "startedAt": "2026-03-28T17:51:06.157Z",
+      "finishedAt": "2026-03-28T17:51:06.157Z"
+    },
+    {
+      "id": "run-1774720266062-dcs2ga",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Features",
+      "action": "generate-features",
+      "status": "completed",
+      "summary": "Am generat 3 feature-uri pornind din brief.",
+      "artifactIds": [
+        "artifact-1774720266062-spckm6"
+      ],
+      "startedAt": "2026-03-28T17:51:06.062Z",
+      "finishedAt": "2026-03-28T17:51:06.062Z"
+    },
+    {
+      "id": "run-1774720265990-6f36ij",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Requirements",
+      "action": "generate-requirements",
+      "status": "completed",
+      "summary": "Am derivat 4 requirements din brief.",
+      "artifactIds": [
+        "artifact-1774720265990-0zgh13"
+      ],
+      "startedAt": "2026-03-28T17:51:05.990Z",
+      "finishedAt": "2026-03-28T17:51:05.990Z"
+    },
+    {
+      "id": "run-1774717462726-swfvwo",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Preview",
+      "action": "generate-preview",
+      "status": "completed",
+      "summary": "Preview-ul aplicației este gata de vizualizare.",
+      "artifactIds": [
+        "artifact-1774717462726-z2rz9j"
+      ],
+      "startedAt": "2026-03-28T17:04:22.726Z",
+      "finishedAt": "2026-03-28T17:04:22.726Z"
+    },
+    {
+      "id": "run-1774717457376-ql4chb",
+      "agentId": "agent-review",
+      "agentName": "Project Review Agent",
+      "stage": "Project Review",
+      "action": "generate-project-review",
+      "status": "completed",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 8 agent runs.",
+      "artifactIds": [
+        "artifact-1774717457376-dpxcc4"
+      ],
+      "startedAt": "2026-03-28T17:04:17.376Z",
+      "finishedAt": "2026-03-28T17:04:17.376Z"
+    },
+    {
+      "id": "run-1774717454483-csqbgq",
+      "agentId": "agent-merge",
+      "agentName": "Merge Agent",
+      "stage": "Merge",
+      "action": "run-merge",
+      "status": "completed",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "artifactIds": [
+        "artifact-1774717454483-lk84i3"
+      ],
+      "startedAt": "2026-03-28T17:04:14.483Z",
+      "finishedAt": "2026-03-28T17:04:14.483Z"
+    },
+    {
+      "id": "run-1774717454326-07pas6",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "approve-security-review",
+      "status": "completed",
+      "summary": "Security report approved for merge handoff.",
+      "artifactIds": [],
+      "startedAt": "2026-03-28T17:04:14.326Z",
+      "finishedAt": "2026-03-28T17:04:14.326Z"
+    },
+    {
+      "id": "run-1774717438334-rut403",
+      "agentId": "agent-security",
+      "agentName": "Security Agent",
+      "stage": "Security Review",
+      "action": "generate-security-review",
+      "status": "completed",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "artifactIds": [
+        "artifact-1774717438334-2l13aq"
+      ],
+      "startedAt": "2026-03-28T17:03:58.334Z",
+      "finishedAt": "2026-03-28T17:03:58.334Z"
+    },
+    {
+      "id": "run-1774717432967-k1x1sa",
+      "agentId": "agent-tech",
+      "agentName": "Tech AI",
+      "stage": "Final Code",
+      "action": "regenerate-workspace",
+      "status": "completed",
+      "summary": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "artifactIds": [
+        "artifact-1774717432967-r2st5x"
+      ],
+      "startedAt": "2026-03-28T17:03:52.967Z",
+      "finishedAt": "2026-03-28T17:03:52.967Z"
+    },
+    {
+      "id": "run-1774717426602-e9vvlb",
+      "agentId": "agent-tech",
+      "agentName": "Tech AI",
+      "stage": "Final Code",
+      "action": "regenerate-workspace",
+      "status": "completed",
+      "summary": "Codul pentru US-01 cu Variant 2 a adăugat 8 fișiere, 0 foldere și a actualizat 0 fișiere.",
+      "artifactIds": [
+        "artifact-1774717426602-l3rew7"
+      ],
+      "startedAt": "2026-03-28T17:03:46.602Z",
+      "finishedAt": "2026-03-28T17:03:46.602Z"
+    },
+    {
+      "id": "run-1774717414658-wokjwb",
+      "agentId": "agent-orchestrator",
+      "agentName": "Orchestrator Agent",
+      "stage": "User Stories",
+      "action": "generate-user-stories",
+      "status": "completed",
+      "summary": "Feature-ul FEAT-03 are acum 1 user stories.",
+      "artifactIds": [
+        "artifact-1774717414658-oysyer"
+      ],
+      "startedAt": "2026-03-28T17:03:34.658Z",
+      "finishedAt": "2026-03-28T17:03:34.658Z"
+    },
+    {
+      "id": "run-1774717363937-zjuem7",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Features",
+      "action": "generate-features",
+      "status": "completed",
+      "summary": "Am generat 3 feature-uri pornind din brief.",
+      "artifactIds": [
+        "artifact-1774717363937-on35r2"
+      ],
+      "startedAt": "2026-03-28T17:02:43.937Z",
+      "finishedAt": "2026-03-28T17:02:43.937Z"
+    },
+    {
+      "id": "run-1774717356200-k5wty7",
+      "agentId": "agent-business",
+      "agentName": "Business AI",
+      "stage": "Requirements",
+      "action": "generate-requirements",
+      "status": "completed",
+      "summary": "Am derivat 4 requirements din brief.",
+      "artifactIds": [
+        "artifact-1774717356200-hnrhtz"
+      ],
+      "startedAt": "2026-03-28T17:02:36.200Z",
+      "finishedAt": "2026-03-28T17:02:36.200Z"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "artifact-1774720267850-pfbggn",
+      "createdAt": "2026-03-28T17:51:07.850Z",
+      "updatedAt": "2026-03-28T17:51:07.850Z",
+      "sourceRunId": "run-1774720267850-2er4wu",
+      "kind": "preview-snapshot",
+      "stage": "Preview",
+      "title": "Preview snapshot for US-01",
+      "summary": "Browser preview generated from the current workspace for Story 1: Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "FEAT-01",
+        "US-01",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774720267721-0ytvb2",
+      "createdAt": "2026-03-28T17:51:07.721Z",
+      "updatedAt": "2026-03-28T17:51:07.721Z",
+      "sourceRunId": "run-1774720267721-13ybhv",
+      "kind": "project-review",
+      "stage": "Project Review",
+      "title": "Project health report",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 26 agent runs.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720267699-scj5k5",
+      "createdAt": "2026-03-28T17:51:07.699Z",
+      "updatedAt": "2026-03-28T17:51:07.699Z",
+      "sourceRunId": "run-1774720267699-j3s9da",
+      "kind": "merge-report",
+      "stage": "Merge",
+      "title": "Merge & integration report",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720267611-ywk5nl",
+      "createdAt": "2026-03-28T17:51:07.611Z",
+      "updatedAt": "2026-03-28T17:51:07.611Z",
+      "sourceRunId": "run-1774720267611-sguu9e",
+      "kind": "security-report",
+      "stage": "Security Review",
+      "title": "Security review report",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "sourceIds": [
+        "SEC-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720267514-zzy8zn",
+      "createdAt": "2026-03-28T17:51:07.514Z",
+      "updatedAt": "2026-03-28T17:51:07.514Z",
+      "sourceRunId": "run-1774720267514-gp30j8",
+      "kind": "workspace-scaffold",
+      "stage": "Final Code",
+      "title": "Workspace scaffold for US-01 · Variant 2",
+      "summary": "Generated workspace scaffold anchored to Story 1: Ciau Vreau Aplcatie Erol using Variant 2.",
+      "sourceIds": [
+        "FEAT-01",
+        "US-01",
+        "US-01-VAR-02",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774720267389-3feekg",
+      "createdAt": "2026-03-28T17:51:07.389Z",
+      "updatedAt": "2026-03-28T17:51:07.389Z",
+      "sourceRunId": "run-1774720267389-1duk42",
+      "kind": "story-set",
+      "stage": "User Stories",
+      "title": "Story set for FEAT-01",
+      "summary": "User stories derived from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720267304-f7pwky",
+      "createdAt": "2026-03-28T17:51:07.304Z",
+      "updatedAt": "2026-03-28T17:51:07.304Z",
+      "sourceRunId": "run-1774720267304-6ic1x0",
+      "kind": "feature-set",
+      "stage": "Features",
+      "title": "Generated feature set",
+      "summary": "Feature backlog derived from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "FEAT-01",
+        "FEAT-02",
+        "FEAT-03"
+      ]
+    },
+    {
+      "id": "artifact-1774720267242-w8rseh",
+      "createdAt": "2026-03-28T17:51:07.242Z",
+      "updatedAt": "2026-03-28T17:51:07.242Z",
+      "sourceRunId": "run-1774720267242-ddxqot",
+      "kind": "requirement-set",
+      "stage": "Requirements",
+      "title": "Derived requirements",
+      "summary": "Requirements extracted from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "REQ-F-01",
+        "REQ-D-01",
+        "REQ-D-02",
+        "REQ-D-03"
+      ]
+    },
+    {
+      "id": "artifact-1774720266705-ah34cd",
+      "createdAt": "2026-03-28T17:51:06.705Z",
+      "updatedAt": "2026-03-28T17:51:06.705Z",
+      "sourceRunId": "run-1774720266705-777ik8",
+      "kind": "preview-snapshot",
+      "stage": "Preview",
+      "title": "Preview snapshot for US-01",
+      "summary": "Browser preview generated from the current workspace for Story 1: Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "FEAT-01",
+        "US-01",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774720266553-5uzk0o",
+      "createdAt": "2026-03-28T17:51:06.553Z",
+      "updatedAt": "2026-03-28T17:51:06.553Z",
+      "sourceRunId": "run-1774720266553-tic4lj",
+      "kind": "project-review",
+      "stage": "Project Review",
+      "title": "Project health report",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 17 agent runs.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720266506-avclcd",
+      "createdAt": "2026-03-28T17:51:06.506Z",
+      "updatedAt": "2026-03-28T17:51:06.506Z",
+      "sourceRunId": "run-1774720266506-05aazo",
+      "kind": "merge-report",
+      "stage": "Merge",
+      "title": "Merge & integration report",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720266430-56srk6",
+      "createdAt": "2026-03-28T17:51:06.430Z",
+      "updatedAt": "2026-03-28T17:51:06.430Z",
+      "sourceRunId": "run-1774720266430-l8ly15",
+      "kind": "security-report",
+      "stage": "Security Review",
+      "title": "Security review report",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "sourceIds": [
+        "SEC-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720266346-4h6gzc",
+      "createdAt": "2026-03-28T17:51:06.346Z",
+      "updatedAt": "2026-03-28T17:51:06.346Z",
+      "sourceRunId": "run-1774720266346-hh6xzr",
+      "kind": "workspace-scaffold",
+      "stage": "Final Code",
+      "title": "Workspace scaffold for US-01 · Variant 2",
+      "summary": "Generated workspace scaffold anchored to Story 1: Ciau Vreau Aplcatie Erol using Variant 2.",
+      "sourceIds": [
+        "FEAT-01",
+        "US-01",
+        "US-01-VAR-02",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774720266157-nkdyxn",
+      "createdAt": "2026-03-28T17:51:06.157Z",
+      "updatedAt": "2026-03-28T17:51:06.157Z",
+      "sourceRunId": "run-1774720266157-z25c9h",
+      "kind": "story-set",
+      "stage": "User Stories",
+      "title": "Story set for FEAT-01",
+      "summary": "User stories derived from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774720266062-spckm6",
+      "createdAt": "2026-03-28T17:51:06.062Z",
+      "updatedAt": "2026-03-28T17:51:06.062Z",
+      "sourceRunId": "run-1774720266062-dcs2ga",
+      "kind": "feature-set",
+      "stage": "Features",
+      "title": "Generated feature set",
+      "summary": "Feature backlog derived from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "FEAT-01",
+        "FEAT-02",
+        "FEAT-03"
+      ]
+    },
+    {
+      "id": "artifact-1774720265990-0zgh13",
+      "createdAt": "2026-03-28T17:51:05.990Z",
+      "updatedAt": "2026-03-28T17:51:05.990Z",
+      "sourceRunId": "run-1774720265990-6f36ij",
+      "kind": "requirement-set",
+      "stage": "Requirements",
+      "title": "Derived requirements",
+      "summary": "Requirements extracted from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "REQ-F-01",
+        "REQ-D-01",
+        "REQ-D-02",
+        "REQ-D-03"
+      ]
+    },
+    {
+      "id": "artifact-1774717462726-z2rz9j",
+      "createdAt": "2026-03-28T17:04:22.726Z",
+      "updatedAt": "2026-03-28T17:04:22.726Z",
+      "sourceRunId": "run-1774717462726-swfvwo",
+      "kind": "preview-snapshot",
+      "stage": "Preview",
+      "title": "Preview snapshot for US-01",
+      "summary": "Browser preview generated from the current workspace for Story 1: Structured Requirements And Implementation Plan.",
+      "sourceIds": [
+        "FEAT-03",
+        "US-01",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774717457376-dpxcc4",
+      "createdAt": "2026-03-28T17:04:17.376Z",
+      "updatedAt": "2026-03-28T17:04:17.376Z",
+      "sourceRunId": "run-1774717457376-ql4chb",
+      "kind": "project-review",
+      "stage": "Project Review",
+      "title": "Project health report",
+      "summary": "Project health synthesized from 1 stories, 8 workspace files, and 8 agent runs.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774717454483-lk84i3",
+      "createdAt": "2026-03-28T17:04:14.483Z",
+      "updatedAt": "2026-03-28T17:04:14.483Z",
+      "sourceRunId": "run-1774717454483-csqbgq",
+      "kind": "merge-report",
+      "stage": "Merge",
+      "title": "Merge & integration report",
+      "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774717438334-2l13aq",
+      "createdAt": "2026-03-28T17:03:58.334Z",
+      "updatedAt": "2026-03-28T17:03:58.334Z",
+      "sourceRunId": "run-1774717438334-rut403",
+      "kind": "security-report",
+      "stage": "Security Review",
+      "title": "Security review report",
+      "summary": "Security review completed with 1 findings requiring attention.",
+      "sourceIds": [
+        "SEC-01"
+      ]
+    },
+    {
+      "id": "artifact-1774717432967-r2st5x",
+      "createdAt": "2026-03-28T17:03:52.967Z",
+      "updatedAt": "2026-03-28T17:03:52.967Z",
+      "sourceRunId": "run-1774717432967-k1x1sa",
+      "kind": "workspace-scaffold",
+      "stage": "Final Code",
+      "title": "Workspace scaffold for US-01 · Variant 2",
+      "summary": "Generated workspace scaffold anchored to Story 1: Structured Requirements And Implementation Plan using Variant 2.",
+      "sourceIds": [
+        "FEAT-03",
+        "US-01",
+        "US-01-VAR-02",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774717426602-l3rew7",
+      "createdAt": "2026-03-28T17:03:46.602Z",
+      "updatedAt": "2026-03-28T17:03:46.602Z",
+      "sourceRunId": "run-1774717426602-e9vvlb",
+      "kind": "workspace-scaffold",
+      "stage": "Final Code",
+      "title": "Workspace scaffold for US-01 · Variant 2",
+      "summary": "Generated workspace scaffold anchored to Story 1: Structured Requirements And Implementation Plan using Variant 2.",
+      "sourceIds": [
+        "FEAT-03",
+        "US-01",
+        "US-01-VAR-02",
+        "file-brief",
+        "file-story-implementation",
+        "file-story",
+        "file-variant",
+        "file-layout",
+        "file-page",
+        "file-component",
+        "file-lib"
+      ]
+    },
+    {
+      "id": "artifact-1774717414658-oysyer",
+      "createdAt": "2026-03-28T17:03:34.658Z",
+      "updatedAt": "2026-03-28T17:03:34.658Z",
+      "sourceRunId": "run-1774717414658-wokjwb",
+      "kind": "story-set",
+      "stage": "User Stories",
+      "title": "Story set for FEAT-03",
+      "summary": "User stories derived from Structured Requirements And Implementation Plan.",
+      "sourceIds": [
+        "US-01"
+      ]
+    },
+    {
+      "id": "artifact-1774717363937-on35r2",
+      "createdAt": "2026-03-28T17:02:43.937Z",
+      "updatedAt": "2026-03-28T17:02:43.937Z",
+      "sourceRunId": "run-1774717363937-zjuem7",
+      "kind": "feature-set",
+      "stage": "Features",
+      "title": "Generated feature set",
+      "summary": "Feature backlog derived from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "FEAT-01",
+        "FEAT-02",
+        "FEAT-03"
+      ]
+    },
+    {
+      "id": "artifact-1774717356200-hnrhtz",
+      "createdAt": "2026-03-28T17:02:36.200Z",
+      "updatedAt": "2026-03-28T17:02:36.200Z",
+      "sourceRunId": "run-1774717356200-k5wty7",
+      "kind": "requirement-set",
+      "stage": "Requirements",
+      "title": "Derived requirements",
+      "summary": "Requirements extracted from Ciau Vreau Aplcatie Erol.",
+      "sourceIds": [
+        "REQ-F-01",
+        "REQ-D-01",
+        "REQ-D-02",
+        "REQ-D-03"
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "id": "activity-1774720267850-g92ozk",
+      "title": "Application generated",
+      "detail": "Preview-ul aplicației este gata de vizualizare.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267721-5hykld",
+      "title": "Project review generated",
+      "detail": "Project health synthesized from 1 stories, 8 workspace files, and 26 agent runs.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267699-hdyj0v",
+      "title": "Merge completed",
+      "detail": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267657-d048tw",
+      "title": "Security review approved",
+      "detail": "Raportul de securitate a fost aprobat pentru merge.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267611-1emd8o",
+      "title": "Security review generated",
+      "detail": "Security review completed with 1 findings requiring attention.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267561-st0qg6",
+      "title": "Moved to Final Code",
+      "detail": "Pipeline orchestrat: workspace generat pentru implementare.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267514-p8c1zf",
+      "title": "Workspace regenerated",
+      "detail": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267473-3fm8wu",
+      "title": "Moved to Planning",
+      "detail": "Pipeline orchestrat: backlog-ul este gata pentru planificare și handoff.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267433-nspjoi",
+      "title": "Moved to User Stories",
+      "detail": "Pipeline orchestrat: user stories generate cu estimări și dependențe.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267390-nc94rh",
+      "title": "User stories generated",
+      "detail": "Feature-ul FEAT-01 are acum 1 user stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267346-6d9jvi",
+      "title": "Moved to Features",
+      "detail": "Pipeline orchestrat: feature generation finalizată.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267304-r7o5ik",
+      "title": "Features generated",
+      "detail": "Am generat 3 feature-uri pornind din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267283-np3xe0",
+      "title": "Moved to Requirements",
+      "detail": "Pipeline orchestrat: requirements derivate din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720267243-3cs2vs",
+      "title": "Requirements generated",
+      "detail": "Am derivat 4 requirements din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266705-52wo8f",
+      "title": "Application generated",
+      "detail": "Preview-ul aplicației este gata de vizualizare.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266553-4qqxyh",
+      "title": "Project review generated",
+      "detail": "Project health synthesized from 1 stories, 8 workspace files, and 17 agent runs.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266506-7yop5c",
+      "title": "Merge completed",
+      "detail": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266465-45jt6f",
+      "title": "Security review approved",
+      "detail": "Raportul de securitate a fost aprobat pentru merge.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266430-ucsxns",
+      "title": "Security review generated",
+      "detail": "Security review completed with 1 findings requiring attention.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266386-bz55dr",
+      "title": "Moved to Final Code",
+      "detail": "Pipeline orchestrat: workspace generat pentru implementare.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266346-zxtyjw",
+      "title": "Workspace regenerated",
+      "detail": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266274-16qxvd",
+      "title": "Moved to Planning",
+      "detail": "Pipeline orchestrat: backlog-ul este gata pentru planificare și handoff.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266206-xrcoc6",
+      "title": "Moved to User Stories",
+      "detail": "Pipeline orchestrat: user stories generate cu estimări și dependențe.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266157-2wcbz8",
+      "title": "User stories generated",
+      "detail": "Feature-ul FEAT-01 are acum 1 user stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266107-whh111",
+      "title": "Moved to Features",
+      "detail": "Pipeline orchestrat: feature generation finalizată.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266062-cu8at9",
+      "title": "Features generated",
+      "detail": "Am generat 3 feature-uri pornind din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720266036-yzkn7v",
+      "title": "Moved to Requirements",
+      "detail": "Pipeline orchestrat: requirements derivate din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774720265990-j2j1gc",
+      "title": "Requirements generated",
+      "detail": "Am derivat 4 requirements din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717462726-1r5ydh",
+      "title": "Application generated",
+      "detail": "Preview-ul aplicației este gata de vizualizare.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717457376-ejn6dd",
+      "title": "Project review generated",
+      "detail": "Project health synthesized from 1 stories, 8 workspace files, and 8 agent runs.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717454483-zdf1fp",
+      "title": "Merge completed",
+      "detail": "Merge completed for 1 story candidates with 8 changelog entries.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717454326-riffnq",
+      "title": "Security review approved",
+      "detail": "Raportul de securitate a fost aprobat pentru merge.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717438335-cmnmw8",
+      "title": "Security review generated",
+      "detail": "Security review completed with 1 findings requiring attention.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717432967-1p0kfu",
+      "title": "Workspace regenerated",
+      "detail": "Am adăugat 0 fișiere, 0 foldere și am actualizat 8 fișiere generate pentru Variant 2.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717426603-zpzyla",
+      "title": "Code generated",
+      "detail": "Codul pentru US-01 cu Variant 2 a adăugat 8 fișiere, 0 foldere și a actualizat 0 fișiere.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717414658-uvdpfs",
+      "title": "User stories generated",
+      "detail": "Feature-ul FEAT-03 are acum 1 user stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717398658-0h6hjn",
+      "title": "Feature selected",
+      "detail": "FEAT-03 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717397177-ozwi37",
+      "title": "Feature selected",
+      "detail": "FEAT-02 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717390965-lgfcz6",
+      "title": "Feature selected",
+      "detail": "FEAT-01 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717388421-a70axk",
+      "title": "Feature selected",
+      "detail": "FEAT-03 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717384290-opczs8",
+      "title": "Feature selected",
+      "detail": "FEAT-02 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717382026-pbtakq",
+      "title": "Feature selected",
+      "detail": "FEAT-01 este acum feature-ul activ.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717363938-zmml4m",
+      "title": "Features generated",
+      "detail": "Am generat 3 feature-uri pornind din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717356201-haged7",
+      "title": "Requirements generated",
+      "detail": "Am derivat 4 requirements din brief.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717347709-my9lcr",
+      "title": "Moved to Documentation",
+      "detail": "Conversația a fost promovată în documentație.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717347618-9vl5vh",
+      "title": "Documentation generated",
+      "detail": "Brief-ul a fost generat automat din conversațiile de business și tech.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717341157-12utx9",
+      "title": "General AI",
+      "detail": "A actualizat brief-ul și a continuat conversația.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717341082-eecgwv",
+      "title": "Alex",
+      "detail": "A trimis un mesaj în conversația generală.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717331456-p1727v",
+      "title": "General AI",
+      "detail": "A actualizat brief-ul și a continuat conversația.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717331409-gy5dwn",
+      "title": "Alex",
+      "detail": "A trimis un mesaj în conversația generală.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717324080-3lgkg1",
+      "title": "General AI",
+      "detail": "A actualizat brief-ul și a continuat conversația.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717323932-7av8na",
+      "title": "Alex",
+      "detail": "A trimis un mesaj în conversația generală.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717308418-r2gn9l",
+      "title": "Moved to Conversation",
+      "detail": "Navigare rapidă către conversation.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717304985-t9r4g1",
+      "title": "Stage blocked",
+      "detail": "Generează și selectează un feature înainte de etapa User Stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717303657-9u630i",
+      "title": "Stage blocked",
+      "detail": "Generează și aprobă requirements înainte de etapa Features.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717293438-6d4kwz",
+      "title": "Stage blocked",
+      "detail": "Generează o user story și alege o variantă de implementare înainte de etapa Planning.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717291042-zcn5nk",
+      "title": "Stage blocked",
+      "detail": "Generează și selectează un feature înainte de etapa User Stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717289081-6menya",
+      "title": "Stage blocked",
+      "detail": "Completează titlul și obiectivul brief-ului înainte de etapa Requirements.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717282092-6nbkcw",
+      "title": "Stage blocked",
+      "detail": "Generează și aprobă requirements înainte de etapa Features.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717280961-bt6lzc",
+      "title": "Stage blocked",
+      "detail": "Completează titlul și obiectivul brief-ului înainte de etapa Requirements.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717279037-te5ed3",
+      "title": "Moved to Documentation",
+      "detail": "S-a navigat către documentation.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717277394-wl3ufn",
+      "title": "Stage blocked",
+      "detail": "Generează și selectează un feature înainte de etapa User Stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717271778-3tpo2f",
+      "title": "Stage blocked",
+      "detail": "Completează titlul și obiectivul brief-ului înainte de etapa Requirements.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717269774-nescno",
+      "title": "Stage blocked",
+      "detail": "Generează și aprobă requirements înainte de etapa Features.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717266240-ex0gan",
+      "title": "Stage blocked",
+      "detail": "Generează și selectează un feature înainte de etapa User Stories.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-1774717262240-e3m7ms",
+      "title": "Stage blocked",
+      "detail": "Generează mai întâi codul final înainte de etapa Security Review.",
+      "time": "Acum"
+    },
+    {
+      "id": "activity-ready",
+      "title": "Project ready",
+      "detail": "Proiectul pornește gol. Completează brief-ul și generează artefactele din etapele următoare.",
+      "time": "Acum"
+    }
+  ],
+  "workspace": {
+    "folders": [
+      {
+        "id": "folder-docs",
+        "name": "docs",
+        "path": "docs"
+      },
+      {
+        "id": "folder-specs",
+        "name": "specs",
+        "path": "specs"
+      },
+      {
+        "id": "folder-src",
+        "name": "src",
+        "path": "src"
+      },
+      {
+        "id": "folder-src-app",
+        "name": "app",
+        "path": "src/app"
+      },
+      {
+        "id": "folder-src-components",
+        "name": "components",
+        "path": "src/components"
+      },
+      {
+        "id": "folder-src-lib",
+        "name": "lib",
+        "path": "src/lib"
+      }
+    ],
+    "files": [
+      {
+        "id": "file-brief",
+        "name": "project-brief.md",
+        "path": "docs/project-brief.md",
+        "content": "# Ciau Vreau Aplcatie Erol\n\n## Objective\nciau vreau aplcatie erol\n\n## Audience\n- erol\n\n## Scope\n- ciau vreau aplcatie erol\n"
+      },
+      {
+        "id": "file-story-implementation",
+        "name": "generated-implementation.ts",
+        "path": "specs/generated-implementation.ts",
+        "content": "export const CiauVreauAplcatieErolStory1 = {\n  feature: \"Ciau Vreau Aplcatie Erol\",\n  audience: \"erol\",\n  goal: \"As a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\",\n}\n\nexport const implementationMode = \"balanced\"\n\n"
+      },
+      {
+        "id": "file-story",
+        "name": "selected-story.md",
+        "path": "specs/selected-story.md",
+        "content": "# US-01 Story 1: Ciau Vreau Aplcatie Erol\n\n## Summary\nAs a erol, I want ciau vreau aplcatie erol available in the workflow so that ciau vreau aplcatie erol.\n\n## Tradeoff\nFastest path to delivery, with moderate structural flexibility.\n"
+      },
+      {
+        "id": "file-variant",
+        "name": "selected-variant.md",
+        "path": "specs/selected-variant.md",
+        "content": "# US-01-VAR-02 Variant 2\n\n## Team\nFrontend + Backend + TL Beta\n\n## Focus\nBalance delivery speed with maintainable boundaries.\n\n## Architecture\nLayered flow with explicit orchestration and clearer separation of runtime data.\n\n## Tradeoff\nBalanced path between speed and structure.\n\n## Pros\n- Balanced maintenance cost\n- Cleaner orchestration boundaries\n- Good default choice\n\n## Cons\n- More coordination than Variant 1\n- Slightly more code upfront\n"
+      },
+      {
+        "id": "file-layout",
+        "name": "layout.tsx",
+        "path": "src/app/layout.tsx",
+        "content": "export const appName = \"Ciau Vreau Aplcatie Erol\"\nexport const appDescription = \"ciau vreau aplcatie erol\"\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return children\n}\n"
+      },
+      {
+        "id": "file-page",
+        "name": "page.tsx",
+        "path": "src/app/page.tsx",
+        "content": "import { agentStatuses } from \"@/components/agent-status\"\nimport { experienceHighlights, experienceQueue, experienceStats, previewMeta } from \"@/lib/preview-data\"\n\nexport const heroTitle = \"Ciau Vreau Aplcatie Erol Runtime\"\nexport const heroSubtitle = \"Preview the ciau vreau aplcatie erol flow directly from generated workspace files.\"\nexport const primaryCta = \"Add to cart\"\nexport const secondaryCta = \"Open category\"\nexport const stageItems = [\n  \"Brief approved\",\n  \"Ciau Vreau Aplcatie Erol\",\n  \"Story 1: Ciau Vreau Aplcatie Erol\",\n  \"Variant 2\",\n  \"Preview generated\"\n]\nexport const feedItems = [\n  \"Selected feature: Ciau Vreau Aplcatie Erol\",\n  \"Selected story: Story 1: Ciau Vreau Aplcatie Erol\",\n  \"Chosen variant: Variant 2 · Balance delivery speed with maintainable boundaries.\",\n  \"Preview generated from the persistent backend workspace.\"\n]\n\nconst shellStyle = {\n  minHeight: \"100vh\",\n  padding: \"32px\",\n  background: \"linear-gradient(180deg, #fff8f1 0%, #fffdf8 100%)\",\n  color: \"#1f2937\",\n  fontFamily: \"\"Space Grotesk\", \"Segoe UI\", sans-serif\",\n}\n\nconst heroCardStyle = {\n  borderRadius: \"28px\",\n  padding: \"28px\",\n  background: \"linear-gradient(135deg, #f97316 0%, #fb7185 100%)\",\n  color: \"white\",\n  boxShadow: \"0 24px 60px rgba(249, 115, 22, 0.22)\",\n}\n\nconst statGridStyle = {\n  display: \"grid\",\n  gridTemplateColumns: \"repeat(auto-fit, minmax(160px, 1fr))\",\n  gap: \"12px\",\n  marginTop: \"18px\",\n}\n\nconst statCardStyle = {\n  borderRadius: \"18px\",\n  padding: \"14px\",\n  background: \"rgba(255,255,255,0.18)\",\n  backdropFilter: \"blur(8px)\",\n}\n\nconst contentGridStyle = {\n  display: \"grid\",\n  gridTemplateColumns: \"1.2fr 0.8fr\",\n  gap: \"18px\",\n  marginTop: \"18px\",\n}\n\nconst panelStyle = {\n  borderRadius: \"24px\",\n  border: \"1px solid rgba(251, 113, 133, 0.16)\",\n  background: \"white\",\n  padding: \"22px\",\n  boxShadow: \"0 18px 40px rgba(15, 23, 42, 0.08)\",\n}\n\nconst listCardStyle = {\n  borderRadius: \"18px\",\n  border: \"1px solid rgba(15, 23, 42, 0.08)\",\n  padding: \"14px\",\n  marginTop: \"12px\",\n  background: \"#fffaf5\",\n}\n\nexport default function Page() {\n  return (\n    <main style={shellStyle}>\n      <section style={heroCardStyle}>\n        <div style={{ fontSize: 12, letterSpacing: \"0.16em\", textTransform: \"uppercase\", opacity: 0.82 }}>\n          {previewMeta.experience} workspace · {previewMeta.variantLabel}\n        </div>\n        <h1 style={{ margin: \"12px 0 0\", fontSize: 42, lineHeight: 1.05 }}>{heroTitle}</h1>\n        <p style={{ margin: \"12px 0 0\", maxWidth: 760, fontSize: 16, lineHeight: 1.6 }}>{heroSubtitle}</p>\n        <div style={{ marginTop: 14, display: \"inline-flex\", borderRadius: 999, padding: \"8px 12px\", background: \"rgba(255,255,255,0.16)\", fontSize: 12 }}>\n          {previewMeta.variantFocus}\n        </div>\n        <div style={{ display: \"flex\", gap: 10, flexWrap: \"wrap\", marginTop: 18 }}>\n          <button style={{ border: 0, borderRadius: 999, padding: \"12px 18px\", background: \"#ffffff\", color: \"#c2410c\", fontWeight: 700 }}>{primaryCta}</button>\n          <button style={{ borderRadius: 999, padding: \"12px 18px\", background: \"transparent\", color: \"white\", border: \"1px solid rgba(255,255,255,0.35)\" }}>{secondaryCta}</button>\n        </div>\n        <div style={statGridStyle}>\n          {experienceStats.map((stat) => (\n            <article key={stat.label} style={statCardStyle}>\n              <div style={{ fontSize: 11, letterSpacing: \"0.08em\", textTransform: \"uppercase\", opacity: 0.8 }}>{stat.label}</div>\n              <strong style={{ display: \"block\", marginTop: 8, fontSize: 24 }}>{stat.value}</strong>\n            </article>\n          ))}\n        </div>\n      </section>\n\n      <section style={contentGridStyle}>\n        <div style={panelStyle}>\n          <div style={{ fontSize: 12, letterSpacing: \"0.14em\", textTransform: \"uppercase\", color: \"#9a3412\" }}>{previewMeta.panelTitle}</div>\n          <h2 style={{ margin: \"10px 0 0\", fontSize: 24 }}>{previewMeta.featureLabel}</h2>\n          <p style={{ margin: \"10px 0 0\", color: \"#4b5563\", lineHeight: 1.7 }}>{previewMeta.panelDescription}</p>\n          <div style={{ marginTop: 12, borderRadius: 16, padding: 14, background: \"#fff7ed\", color: \"#7c2d12\" }}>\n            <strong style={{ display: \"block\", fontSize: 13 }}>{previewMeta.variantLabel}</strong>\n            <p style={{ margin: \"6px 0 0\", lineHeight: 1.6 }}>{previewMeta.variantArchitecture}</p>\n          </div>\n          {experienceHighlights.map((item) => (\n            <article key={item.title} style={listCardStyle}>\n              <strong style={{ display: \"block\", fontSize: 15 }}>{item.title}</strong>\n              <p style={{ margin: \"6px 0 0\", color: \"#6b7280\", lineHeight: 1.6 }}>{item.detail}</p>\n            </article>\n          ))}\n        </div>\n\n        <div style={{ display: \"grid\", gap: 18 }}>\n          <section style={panelStyle}>\n            <div style={{ fontSize: 12, letterSpacing: \"0.14em\", textTransform: \"uppercase\", color: \"#9a3412\" }}>Live queue</div>\n            {experienceQueue.map((item) => (\n              <article key={item.name} style={listCardStyle}>\n                <strong style={{ display: \"block\", fontSize: 15 }}>{item.name}</strong>\n                <div style={{ marginTop: 6, color: \"#6b7280\", fontSize: 13 }}>{item.meta}</div>\n                <div style={{ marginTop: 10, display: \"inline-flex\", borderRadius: 999, background: \"#ffedd5\", color: \"#c2410c\", padding: \"6px 10px\", fontSize: 12 }}>{item.status}</div>\n              </article>\n            ))}\n          </section>\n\n          <section style={panelStyle}>\n            <div style={{ fontSize: 12, letterSpacing: \"0.14em\", textTransform: \"uppercase\", color: \"#9a3412\" }}>Agent coordination</div>\n            {agentStatuses.map((agent) => (\n              <article key={agent.name} style={listCardStyle}>\n                <strong style={{ display: \"block\", fontSize: 15 }}>{agent.name}</strong>\n                <div style={{ marginTop: 6, color: \"#6b7280\", fontSize: 13 }}>{agent.status}</div>\n              </article>\n            ))}\n          </section>\n        </div>\n      </section>\n    </main>\n  )\n}\n"
+      },
+      {
+        "id": "file-component",
+        "name": "agent-status.tsx",
+        "path": "src/components/agent-status.tsx",
+        "content": "export const agentStatuses = [\n  {\n    \"name\": \"Business AI\",\n    \"status\": \"brief-ready\"\n  },\n  {\n    \"name\": \"Tech AI\",\n    \"status\": \"architecture-ready\"\n  },\n  {\n    \"name\": \"Orchestrator Agent\",\n    \"status\": \"selected-variant-2\"\n  },\n  {\n    \"name\": \"Merge Agent\",\n    \"status\": \"awaiting-approval\"\n  }\n]\n"
+      },
+      {
+        "id": "file-lib",
+        "name": "preview-data.ts",
+        "path": "src/lib/preview-data.ts",
+        "content": "export const previewMeta = {\n  title: \"Ciau Vreau Aplcatie Erol Runtime\",\n  feature: \"FEAT-01\",\n  status: \"generated-from-brief\",\n  experience: \"commerce\",\n  panelTitle: \"Featured products\",\n  panelDescription: \"The storefront highlights the hero catalog slice, purchase intent, and trust signals for checkout.\",\n  featureLabel: \"Ciau Vreau Aplcatie Erol\",\n  variantLabel: \"Variant 2\",\n  variantFocus: \"Balance delivery speed with maintainable boundaries.\",\n  variantArchitecture: \"Layered flow with explicit orchestration and clearer separation of runtime data.\",\n}\n\nexport const experienceStats = [\n  {\n    \"label\": \"Featured SKUs\",\n    \"value\": \"6\"\n  },\n  {\n    \"label\": \"Cart conversion\",\n    \"value\": \"4.8%\"\n  },\n  {\n    \"label\": \"Shipping SLA\",\n    \"value\": \"24h\"\n  }\n]\n\nexport const experienceHighlights = [\n  {\n    \"title\": \"Păpușa Velvet\",\n    \"detail\": \"Best-seller hero product with price, CTA, and delivery promise.\"\n  },\n  {\n    \"title\": \"Family bundle\",\n    \"detail\": \"Cross-sell card for accessories and gift wrapping.\"\n  },\n  {\n    \"title\": \"Trust row\",\n    \"detail\": \"Quick delivery, secure checkout, and return policy messaging.\"\n  }\n]\n\nexport const experienceQueue = [\n  {\n    \"name\": \"Păpușa Velvet\",\n    \"meta\": \"129 RON · 5-8 ani\",\n    \"status\": \"Top seller\"\n  },\n  {\n    \"name\": \"Casă de păpuși Mini\",\n    \"meta\": \"219 RON · Bundle\",\n    \"status\": \"Low stock\"\n  },\n  {\n    \"name\": \"Set haine pastel\",\n    \"meta\": \"49 RON · Add-on\",\n    \"status\": \"Cross-sell ready\"\n  }\n]\n"
+      }
+    ],
+    "selectedFileId": "file-page",
+    "runtimeEntrypoints": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx"
+    ]
+  },
+  "securityReport": {
+    "status": "approved",
+    "summary": "Security review completed with 1 findings requiring attention.",
+    "reviewedAt": "2026-03-28T17:51:07.611Z",
+    "issues": [
+      {
+        "id": "SEC-01",
+        "title": "Authentication and authorization are not explicit in the implementation plan",
+        "severity": "high",
+        "detail": "Brief-ul și requirements-urile nu definesc clar controlul de acces pentru echipă și proiecte.",
+        "remediation": "Adaugă auth, roluri și project scoping explicit înainte de merge.",
+        "storyIds": [
+          "US-01"
+        ]
+      }
+    ],
+    "approvedAt": "2026-03-28T17:51:07.657Z"
+  },
+  "mergeReport": {
+    "status": "completed",
+    "summary": "Merge completed for 1 story candidates with 8 changelog entries.",
+    "mergedAt": "2026-03-28T17:51:07.699Z",
+    "mergedStoryIds": [
+      "US-01"
+    ],
+    "changelog": [
+      "Security Review: Security review report",
+      "Final Code: Workspace scaffold for US-01 · Variant 2",
+      "User Stories: Story set for FEAT-01",
+      "Features: Generated feature set",
+      "Requirements: Derived requirements",
+      "Security review approved - Raportul de securitate a fost aprobat pentru merge.",
+      "Security review generated - Security review completed with 1 findings requiring attention.",
+      "Moved to Final Code - Pipeline orchestrat: workspace generat pentru implementare."
+    ]
+  },
+  "projectHealth": {
+    "status": "completed",
+    "summary": "Project health synthesized from 1 stories, 8 workspace files, and 26 agent runs.",
+    "generatedAt": "2026-03-28T17:51:07.718Z",
+    "progress": 91,
+    "coverage": "3 features / 1 stories traced into the current implementation flow.",
+    "technicalDebt": [
+      "Open high-severity security findings still require human confirmation."
+    ],
+    "nextActions": [
+      "Generate the preview after review is complete.",
+      "Track remaining hardening tasks as follow-up stories.",
+      "Add explicit human sign-off notes to preserve the SDLC audit trail."
+    ]
+  },
+  "preview": {
+    "appGenerated": true,
+    "previewOpened": true,
+    "mode": "virtual-runtime"
+  }
+}
